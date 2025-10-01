@@ -86,7 +86,5 @@ func NomesOrdenados(entries []fs.DirEntry) []string {
 		return ai - bi
 	})
 
-	fmt.Println(names)
-
 	return names
 }
