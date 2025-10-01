@@ -1,0 +1,8 @@
+services:
+  beaver:
+    build: .
+    ports:
+      - "9001:9001"
+    restart: unless-stopped
+    environment:
+      - GIN_MODE=release
